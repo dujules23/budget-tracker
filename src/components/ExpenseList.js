@@ -13,7 +13,6 @@ const ExpenseList = () => {
   return (
     <ul className="list-group">
       {expenses.map((expense, index) => {
-        console.log(expense.cost);
         return (
           <div key={index}>
             <ExpenseItem
